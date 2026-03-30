@@ -97,6 +97,7 @@ Designed and built a mobile application that enhances museum visits through AI-p
 - Initially integrated **AWS Rekognition** for image recognition but later replaced it with a custom-trained CNN model to reduce infrastructure costs and improve control over the recognition pipeline.
 - Implemented cloud-based image processing workflows using **AWS services including S3, Lambda, and DynamoDB** to manage image storage and recognition results.
 - Designed backend inference workflows that process uploaded images and return recognition results to the mobile application.
+- Implemented the end-to-end recognition workflow enabling users to capture artwork via the mobile camera, upload images to cloud storage, trigger server-side inference, and return recognition results to the application in real time.
 
 ## Machine Learning & Data Science
 
